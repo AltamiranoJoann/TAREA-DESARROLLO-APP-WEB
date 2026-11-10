@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patitas con Causa - Inicio</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <style>
+        .hero-banner {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: var(--white);
+            padding: 0 1rem;
+        }
+        .mission-box {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            border-left: 6px solid var(--primary-color);
+        }
+        #feature-list {
+            margin-top: 1.5rem;
+            padding-left: 2rem;
+        }
+        #feature-list li {
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo" style="letter-spacing: 1.5px;">Patitas con Causa</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="acopio.html">Centro de Acopio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-banner">
+            <h1 style="font-size: 2.8rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.6);">Rescate y Adopción Felina</h1>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; max-width: 600px;">Damos una segunda oportunidad a gatitos rescatados, rehabilitados y listos para formar parte de tu hogar.</p>
+            <a href="catalogo.html" class="btn">Ver Catálogo de Adopción</a>
+        </section>
+
+        <div class="container">
+            <h2 class="section-title">Sobre Nuestro Refugio</h2>
+            
+            <article class="mission-box">
+                <p style="font-size: 1.1rem; color: #4b4b4b; margin-bottom: 1rem;">
+                    En <strong>Patitas con Causa</strong> nos especializamos en el rescate, cuidado y reubicación responsable de felinos. Muchos de nuestros pequeños llegan con historiales de travesuras y daños menores en casa, pero con todo el amor del mundo para dar.
+                </p>
+                <p style="font-weight: 600; color: var(--dark-color);">Nuestros pilares fundamentales:</p>
+                
+                <ul id="feature-list">
+                    <li>Rescate activo en situaciones de vulnerabilidad callejera.</li>
+                    <li>Rehabilitación veterinaria integral, esterilización y vacunación.</li>
+                    <li>Evaluación rigurosa de compatibilidad para adopciones seguras.</li>
+                    <li>Centro de acopio permanente para alimentos, arena e insumos.</li>
+                    <li>Educación comunitaria sobre tenencia responsable y bienestar animal.</li>
+                </ul>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Patitas con Causa. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
